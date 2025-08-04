@@ -1,0 +1,12 @@
+{
+  "BasePath": "e:\\Daffa\\Projects\\2025\\ng-sdms\\ng-sdms-be",
+  "SolutionName": "ng-sdms-product-be",
+  "ProjectName": "NgSdms.Product",
+  "ProjectDescription": "NG SDMS Product Management System",
+  "IncludeDockerSupport": true,
+  "Dependencies": {
+    "FluentValidation.AspNetCore": "11.3.0",
+    "Serilog.AspNetCore": "8.0.1",
+    "Swashbuckle.AspNetCore.Annotations": "6.5.0"
+  }
+}
