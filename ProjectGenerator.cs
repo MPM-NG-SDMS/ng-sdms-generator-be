@@ -129,6 +129,9 @@ namespace NgSdms.Master.Generator
         partial void CreateApplicationProject(string projectDir);
 
         partial void CreateInfrastructureProject(string projectDir);
+        // Partial methods for Auth scaffolding and Dockerfile generation
+        partial void CreateKeycloakAuthExtensions(string projectDir);
+        partial void CreateDockerfile(string projectDir);
 
         private void AddProjectToSolution(string solutionDir, string projectDir, string projectName)
         {
